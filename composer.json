@@ -1,0 +1,21 @@
+{
+    "name": "mvs/worksena-session",
+    "description": "Gerenciador de sessões worksena",
+    "type": "library",
+    "license": "MIT",
+    "version": "v1.0.0",
+    "authors": [
+        {
+            "name": "Walderlan Sena",
+            "email": "senawalderlan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WS\\Session\\": "src/"
+        }
+    }
+}
